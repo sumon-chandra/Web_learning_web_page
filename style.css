@@ -1,0 +1,607 @@
+/* ----------------------------------------------Common CSS------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    /* font-family: 'Otomanopee One', sans-serif; */
+}
+body{
+    background-color: #e6e6e6;
+}
+h1{
+    font-family:monospace;
+    color:#5507e6;
+}
+#header_area{
+    width:90%;
+    height:100vh;
+    background-image: url(img/banner.png);
+    background-position:cebter;
+    background-size:cover;
+    margin: 0 auto;
+}
+.top_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00000010;
+    align-items: center;
+}
+.logo img{
+    width:150px;
+    height:50px;
+    margin: 10px 0 0 30px;
+    cursor:pointer;
+}
+.navber{
+    margin-left: -27px;
+}
+
+.navber ul{
+    display: flex;
+    justify-content:start ;
+    margin-right: 192px;
+}
+.navber ul li{
+    margin-left:55px;
+    list-style: none;
+}
+.navber ul li a{
+    color:#000;
+    text-decoration: none;
+}
+.navber ul li a:hover{
+    text-decoration: underline #5507e6;
+    
+}
+.social_icons i{
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.social_icons i:hover{
+    color:#5507e6;
+}
+.contract_me button{
+    color: #fff;
+    padding:10px 19px;
+    border:none;
+    background-color: #5507e6;
+    border-radius: 8px;
+    margin-right: 30px;
+    cursor:pointer;
+    box-shadow: 3px 4px 8px #0000006b;
+}
+.header_text{
+    margin:90px 0 0 135px;
+
+}
+.banner_text {
+    margin-bottom: 30px;
+}
+.banner_text h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 50px;
+}
+.banner_text p{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 17px;
+}
+.banner_text h1 span{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 50px;
+    color:#5507e6 ;
+}
+
+.contract_info{
+    width:400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email{
+    
+    color:#000000;
+    padding:10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.Whats_app{
+    
+    color:#000000;
+    padding:10px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.button{
+    margin-top:60px;
+}
+.button > button{
+    color: #fff;
+    padding:10px 19px;
+    border:none;
+    background-color: #5507e6;
+    border-radius: 8px;
+    margin-right: 30px;
+    cursor:pointer;
+    box-shadow: 3px 4px 8px #0000006b;
+}
+/* -----------------------------------------------------------Blogs-------------------------------- */
+
+#about{
+    width:90%;
+    height:70vh;
+    background-image: url(img/about.png);
+    background-position:cebter;
+    background-size:cover;
+    margin: 0 auto;
+    position: relative;
+}
+.about_area{
+    position:absolute;
+    right:0;
+    top:150px;
+    width:450px;
+}
+.about_text h2{
+    font-size: 25px;
+}
+.about_text p{
+   margin-top: 20px;
+}
+
+.follow{
+    margin-top:40px;
+}
+.follow button{
+    color: #fff;
+    padding:10px 19px;
+    border:none;
+    background-color: #5507e6;
+    border-radius: 8px;
+    margin-right: 30px;
+    cursor:pointer;
+    box-shadow: 3px 4px 8px #0000006b;
+}
+.icons{
+    margin-top: 40px;;
+
+}
+.icons, .fb, .instra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fb i{
+    font-size: 40px;
+    color: #0000a8;
+    cursor: pointer;
+    box-shadow: 3px 4px 8px #0000006b;
+    margin-left: 156px;
+}
+.instra i{
+    font-size: 40px;
+    color: #ff006a;
+    margin-right: 0;
+    cursor: pointer;
+    box-shadow: 3px 4px 8px #0000006b;
+}
+
+/* ---------------------------------------services---------------------- */
+
+#services{
+    width:90%;
+    height: 85vh;
+    margin:auto;
+    background-color: #fff;
+}
+#services h1{
+    font-size: 40px;
+}
+#services > p{
+    font-size: 18px;
+}
+.my_services{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.service{
+    width:300px;
+    height: 282px;
+    margin:60px 0 0 0;
+    background-color: #dfdbdb;
+    border-radius: 20px;
+}
+
+.service img{
+    width:100%;
+    cursor: pointer;
+}
+.service_text{
+    color:#000000;
+    margin-top:20px;
+    margin-left:10px;
+    font-weight: 50px;
+    font-size: 17px;
+}
+
+.service button{
+    color: #fff;
+    padding:10px 19px;
+    border:none;
+    background-color: #5507e6;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left:10px;
+    cursor:pointer;
+    box-shadow: 3px 4px 8px #0000006b;
+}
+
+.btn button{
+    color: #fff;
+    padding:10px 19px;
+    border:none;
+    background-color: #5507e6;
+    border-radius: 8px;
+    margin-top: 30px;
+    cursor:pointer;
+    box-shadow: 3px 4px 8px #0000006b;
+    font-size: 20px;
+}
+/* ----------------------------------------------------------Clints Area--------------------- */
+
+
+#clints_area{
+    width:90%;
+    height:75vh;
+    margin:auto;
+    background-color: #fff;
+}
+#clints_area h1{
+    font-size: 40px;
+    color: #5507e6;
+}
+#clints_area hr{
+    width:400px;
+}
+.clints{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items:center;
+    grid-row-gap: 70px;
+    margin-top:50px;
+}
+.clint {
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 4px 15px #0000006b;
+    cursor: pointer;
+    transition:0.5s;
+}
+.clint:hover{
+    margin-top:-5px;
+}
+.clint_dtail{
+    margin-left:14px;
+}
+.clint_dtail span{
+    color:gray;
+}
+
+.clint img{
+    width:120px;
+}
+/* -----------------------------------------------------Blog Area------------------- */
+
+#bog_area{
+    width:90%;
+    height:120vh;
+    margin: auto;
+    background-color: #fff;
+}
+#bog_area h1{
+    font-size: 40px;
+}
+#bog_area button{
+    color: #fff;
+    padding:10px 19px;
+    border:none;
+    background-color: #5507e6;
+    border-radius: 8px;
+    margin-top: 30px;
+    cursor:pointer;
+    box-shadow: 3px 4px 8px #0000006b;
+    font-size: 20px;
+}
+
+.blogs{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.blog{
+    width:350px;
+    height:200px;
+    background-color: #d6d6d6;
+    border-radius: 15px;
+    margin-top: 80px;
+    box-shadow: 3px 4px 20px #0000006b;
+    cursor: pointer;
+}
+.blog_pic img{
+    width:100px;
+    margin-left: 114px;
+    margin-top: -50px;
+    border:5px solid #fff;
+    border-radius: 50%;
+}
+
+.blog_detail{
+    margin-top:30px;
+    margin-left:10px;
+}
+.blog_detail h5{
+    font-size: 25px;
+    margin-bottom:15px;
+}
+.blog_detail a{
+    color:gray;
+    text-decoration: none;
+}
+/* ------------------------------------------------------Skill Area-------------------------------- */
+
+#skills_area{
+    width:90%;
+    height:100vh;
+    margin:auto;
+    background-color: #fff;
+}
+.all_skills{
+    display: flex;
+
+}
+.retings_area{
+    width:50%;
+}
+.reting_text h1{
+    font-size: 50px;
+   
+}
+.reting_text p{
+    font-size: 17px;
+    margin-top:30px;
+}
+.retings{
+    margin:20px 30px 0 0;
+}
+.reting{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.HTML_text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.HTML_reting{
+    display: flex;
+    align-items: center;
+    
+}
+.green{
+    width:90%;
+    height:10px;
+    background-color: #009000;
+    border-radius: 0 3px 3px 0;
+}
+.uncomplete{
+    width:10%;
+    height:3px;
+    background-color: #666666
+}
+
+.CSS_text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.CSS_reting{
+    display: flex;
+    align-items: center;   
+}
+.css_green{
+    width:85%;
+    height:10px;
+    background-color: #009000;
+    border-radius: 0 3px 3px 0;
+}
+.css_uncomplete{
+    width:15%;
+    height:3px;
+    background-color: #666666
+}
+
+
+.js_text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.js_reting{
+    display: flex;
+    align-items: center;   
+}
+.js_green{
+    width:80%;
+    height:10px;
+    background-color: #009000;
+    border-radius: 0 3px 3px 0;
+}
+.js_uncomplete{
+    width:20%;
+    height:3px;
+    background-color: #666666
+}
+
+.python_text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.python_reting{
+    display: flex;
+    align-items: center;   
+}
+.python_green{
+    width:60%;
+    height:10px;
+    background-color: #009000;
+    border-radius: 0 3px 3px 0;
+}
+.python_uncomplete{
+    width:40%;
+    height:3px;
+    background-color: #666666
+}
+
+.rjs_text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.rjs_reting{
+    display: flex;
+    align-items: center;   
+}
+.rjs_green{
+    width:85%;
+    height:10px;
+    background-color: #009000;
+    border-radius: 0 3px 3px 0;
+}
+.rjs_uncomplete{
+    width:15%;
+    height:3px;
+    background-color: #666666
+}
+
+
+.skill_boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    margin-top:40px;
+    margin-left: 30px;;
+}
+
+.box{
+    width:80%;
+    height:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 4px 15px #0000006b;
+    cursor: pointer;
+}
+.box i{
+    font-size: 80px;
+}
+
+.fa-python{
+    color: mediumblue;
+}
+.fa-js-square{
+    color: #ffd000;
+}
+
+.fa-css3-alt{
+    color: #3333ff;
+}
+
+.fa-html5{
+    color: #aa0000;
+}
+
+/* -------------------------------------------------------Contract Area------------------------------ */
+
+#contract_area{
+    width:90%;
+    height:80vh;
+    margin:auto;
+    background-image: url(img/contract.png);
+    background-position:center;
+    background-size:cover;
+}
+#contract_area h1{
+    font-size: 50px;
+}
+#contract_area form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+#contract_area form input{
+    width:250px;
+    margin-top:20px;
+    height: 40px;
+    border-bottom: 3px solid #5507e6;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+
+#contract_area form textarea{
+    width: 300px;
+    margin-top: 20px;
+    border: 1px solid #5507e6;
+}
+
+#contract_area form button{
+    width:150px;
+    color: #fff;
+    padding:10px 19px;
+    border:none;
+    background-color: #5507e6;
+    border-radius: 8px;
+    margin-top: 30px;
+    cursor:pointer;
+    box-shadow: 3px 4px 8px #0000006b;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
