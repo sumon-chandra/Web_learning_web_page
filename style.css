@@ -215,7 +215,7 @@ h1{
     width:300px;
     height: 282px;
     margin:60px 0 0 0;
-    background-color: #dfdbdb;
+    background-color: #dddddd;
     border-radius: 20px;
 }
 
@@ -332,7 +332,7 @@ h1{
 .blog{
     width:350px;
     height:200px;
-    background-color: #d6d6d6;
+    background-color: #ffffff;
     border-radius: 15px;
     margin-top: 80px;
     box-shadow: 3px 4px 20px #0000006b;
@@ -583,9 +583,307 @@ h1{
     font-size: 20px;
 }
 
+/* --------------------------------------------------------Responsive------------------------------ */
 
+@media only screen and (max-width:688px) {
+    #header_area{
+        width: 100%;
+        height: 50vh;
+        background-image:none;  
+        margin: 0;    
+       
+    }
+    .top_header{
+        width: 374px;
+        height: 65px;
+        align-items: flex-start;
+        position: relative; 
+    }
+    .logo img{
+        width:80px;
+        height:30px;
+        margin: 10px 0 0 12px;
+    }
+    .navber ul{
+        margin-right: 101px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 32px;
+        position: absolute;
+        bottom: 2px;
+        left: -18px;
+    }
+    .navber ul li{
+        margin-right: -43px;
+    }
+    .social_icons{
+        margin-right: 4px;
+        font-size: 18px;
+        width: 0;
+        position: absolute;
+        top: 200px;
+        right: 19px
+    }
+    .social_icons i{
+        margin-right: 0;
+    }
+    .contract_me button{
+        width:102px;
+        padding:5px 4px;
+        margin: 10px 10px 0 0;
+    }
+    .header_text{
+       margin:5px;
+    }
+    .banner_text h1{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .banner_text h1 span {
+        font-size: 24px;
+    }
+    .banner_text p{
+        font-size: 10px;
+        margin-top:8px;
+    }
+    .contract_info{
+        width:355px;
+        flex-direction: column;
+    }
+    .email{
+        font-size:12px;
+    }
+    .Whats_app{
+        font-size:12px;
+    }
+    .button{
+        margin-top: 23px;
+    }
+    .button button{
+        padding: 8px 8px;
+        margin-right: 5px;
+    }
+    #about{
+        width: 375px;
+        height:26vh;
+        background-image: none;
+        background-color: #fff;
+    }
+    .about_area{
+        top: 0px;
+        width: 375px;
+    }
+    .about_text{
+        margin-left: 5px;
+    }
+    .about_text h2{
+        font-size: 20px;
+    }
+    .about_text p{
+        font-size: 10px;
+        margin-top:8px;
+    }
+    .follow{
+        margin-top: 20px;
+    }
+    .follow h2{
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .fb i{
+        font-size: 30px;
+        margin-left: 45px;
+    }
+    .instra i{
+        font-size: 30px;
+        margin-right: 15px;
+    }
+    .icons button{
+        margin-left:5px;
+    }
+    #services{
+        width:375px;
+        background-color: #eeeeee;
+        height: 145vh;
+    }
+    #services h1{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    #services p{
+        font-size: 10px;
+        margin-top:8px;
+        margin-left: 5px;
+    }
+    .my_services{
+        flex-direction: column;
+    }
+    .btn button{
+        margin-left: 5px;
+    }
+    #clints_area{
+        width: 375px;
+        height:115vh;
+        background-color: #e6e6e6;
+    }
+    #clints_area h1{
+        font-size: 20px;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+    hr{
+       display: none;
+    }
+    .clints{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top:30px;
+        grid-row-gap: 20px
+    }
+    .clint{
+        font-size: 12px;
+    }
+    #bog_area{
+        width: 375px;
+        height:208vh;
+        background-color: #ffffff;
+    }
+    #bog_area h1{
+        margin-left:5px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .blog{
+        width: 300px;
+        height: 232px;
+        font-size: 12px;
+    }
+    .blog_detail h5 {
+        font-size: 18px;
+    }
+    #bog_area button{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    #skills_area{
+        width: 375px;
+        height:93vh;
+        background-color: #d6d6d6;
+    }
+    .all_skills {
+        flex-direction: column;
+    }
+    .reting_text h1 br{
+        display: inline-block;
+    }
+    .reting_text h1{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    .reting_text{
+        width:375px;
+    }
+    .reting_text p {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .retings {
+        margin: 0 auto;
+        width: 355px;
+        margin-left: 5px;
+    }
+    .HTML_text h5{
+        font-size: 20px;
+    }
+    .green {
+        width:90%;
+        height: 5px;
+    }
+    .uncomplete {
+        width: 10%;
+        height: 1px;
+    }
+    .CSS_text h5{
+        font-size: 20px;
+    }
+    .css_green {
+        width:85%;
+        height: 5px;
+    }
+    .css_uncomplete {
+        width: 15%;
+        height: 1px;
+    }
+    .js_text h5{
+        font-size: 20px;
+    }
+    .js_green {
+        width:80%;
+        height: 5px;
+    }
+    .js_uncomplete {
+        width: 20%;
+        height: 1px;
+    }
+    .python_text h5{
+        font-size: 20px;
+    }
+    .python_green {
+        width: 60%;
+        height: 5px;
+    }
+    .python_uncomplete {
+        width: 40%;
+        height: 1px;
+    }
+    .rjs_text h5{
+        font-size: 20px;
+    }
+    .rjs_green {
+        width:80%;
+        height: 5px;
+    }
+    .rjs_uncomplete {
+        width: 20%;
+        height: 1px;
+    }
+    .skill_boxes {
+        grid-template-columns: repeat(2, 172px) ; 
+        grid-row-gap: 26px;
 
-
+    } 
+    .box{
+        width: 145px;
+        height: 145px;
+    }
+    .box i {
+        font-size: 35px;
+    }
+    .box h2 {
+        font-size: 25px;
+    }
+    #contract_area {
+        width: 375px;
+        height: 100vh;
+        background-image: none;
+        background-color: #ffffff;
+    }
+    #contract_area h1 {
+        font-size: 20px;
+        margin-left:5px;
+    }
+    #contract_area form {
+        width:95%;
+        margin-left:5px;
+    }
+}
 
 
 
